@@ -47,3 +47,52 @@
 | 13  | 🔐 ***Module summary***  | 
 
 ---
+
+==========================================================================
+
+## Module 07 - Object Oriented typescript
+
+---
+
+***Topics Covered***
+| No. | Topic             |
+| --- | ------------------- | 
+| 01  | 🔐 ***Class & Object in TypeScript***  |
+| 02  | 🔐 ***Inheritance***  |
+| 03  | 🔐 ***Type Guard in TypeScript*** | 
+| 04  | 🔐 ***Type guard using instance of *** |
+| 05  | 🔐 ***Access Modifiers ***  |
+| 06  | 🔐 ***Getter & Setter ***  | 
+| 07  | 🔐 ***Static ***  |
+| 08  | 🔐 *** Polymorphism. ***  |
+| 09  | 🔐 ***Abstraction in TypeScript. *** | 
+| 10  | 🔐 ***Encapsulation. ***   | 
+| 11  | 🔐 *** ..... ***  |
+
+## Overview
+
+This module introduces **TypeScript fundamentals**, from installation to working with basic and advanced types. 
+It's the perfect starting point to understand how ***TypeScript*** adds ***type safety***, ***readability***, and ***scalability*** to your JavaScript code.
+
+
+---
+
+## Requirements 
+
+- Node.js (Installed via **NVM**)
+- TypeScript Compiler (`npm install -g typescript`)
+- A modern code editor (e.g., **VS Code**)
+
+---
+
+## Getting Started 
+```bash
+# Check TypeScript version
+tsc -v
+
+# Compile a TypeScript file 
+tsc index.ts 
+
+# Run compiled JavaScript
+node index.js
+```
