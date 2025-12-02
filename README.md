@@ -61,13 +61,13 @@
 | 02  | 🔐 ***Inheritance***  |
 | 03  | 🔐 ***Type Guard in TypeScript*** | 
 | 04  | 🔐 ***Type guard using instance of *** |
-| 05  | 🔐 ***Access Modifiers ***  |
-| 06  | 🔐 ***Getter & Setter ***  | 
-| 07  | 🔐 ***Static ***  |
-| 08  | 🔐 *** Polymorphism. ***  |
-| 09  | 🔐 ***Abstraction in TypeScript. *** | 
-| 10  | 🔐 ***Encapsulation. ***   | 
-| 11  | 🔐 *** ..... ***  |
+| 05  | 🔐 ***Access Modifiers***  |
+| 06  | 🔐 ***Getter & Setter***  | 
+| 07  | 🔐 ***Static***  |
+| 08  | 🔐 *** Polymorphism.***  |
+| 09  | 🔐 ***Abstraction in TypeScript.*** | 
+| 10  | 🔐 ***Encapsulation.***   | 
+| 11  | 🔐 *** ..... ***|
 
 ## Overview
 
