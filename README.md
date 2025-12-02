@@ -7,7 +7,6 @@
 ***Topic Covered***
 
 | No. | Topic       | 
-| --- | ---         |
 | 01 | 🔐 ***Why Learn TypeScript?***  |
 | 02 | 🔐 ***Install Node.js using NVM***  |
 | 03 | 🔐 ***Install and run TypeScript***  |
