@@ -23,7 +23,7 @@
 | 13 | 🔐 ***nullable, unknown & naver type, typeOf***  |
 
 ---
-=========================================================================
+==========================================================================
 
 
 ## Module 06 - TypeScript advance
@@ -32,4 +32,18 @@
 ***Topics Covered***
 | No. | Topic                  |
 | --- | --------------------------  |
-| 01  | 🔐 ***W
+| 01  | 🔐 ***type Assertion***  |
+| 02  | 🔐 ***interface***  |
+| 03  | 🔐 ***Generic array, tuple, array of object***  |
+| 04  | 🔐 ***GENERIC with INTERFACE***  |
+| 05  | 🔐 ***Generic with function***  |
+| 06  | 🔐 ***Constraint***  | 
+| 07  | 🔐 ***keyOf and keyof Constraint***  |
+| 08  | 🔐 ***Enum in Typescript***  |
+| 09  | 🔐 ***as const instead of enum***  |
+| 10  | 🔐 ***conditional type***  |
+| 11  | 🔐 ***mapped types***  |
+| 12  | 🔐 ***Utility types***  |
+| 13  | 🔐 ***Module summary***  | 
+
+---
