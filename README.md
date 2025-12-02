@@ -8,4 +8,4 @@
 
 | No. | Topic                                          | 
 | --- |   ----------------------------------------------- |
-| 01 | 🔐 ***Why Learn TypeScript?***
+| 01 | 🔐 ***Why Learn TypeScript?                     ***
