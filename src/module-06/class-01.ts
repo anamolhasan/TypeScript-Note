@@ -47,12 +47,12 @@ const checkStudentInfo = (value: any): any => {
 };
 
 // ==================== Function Call ====================
-checkStudentInfo("Anwarul" as string); // Assertion: string হিসেবে নিচ্ছে
+checkStudentInfo("Anamol" as string); // Assertion: string হিসেবে নিচ্ছে
 // console.log(checkStudentInfo(85 as number)); // Assertion: number হিসেবে নিচ্ছে
 
 /* 
 🎯 এখানে আমরা manually Type Assertion ব্যবহার করেছি:
-"Anwarul" as string   👉 TypeScript কে বলছি এটা string
+"Anamol" as string   👉 TypeScript কে বলছি এটা string
 85 as number          👉 TypeScript কে বলছি এটা number
 */
 
