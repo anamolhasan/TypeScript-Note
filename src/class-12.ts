@@ -1,0 +1,72 @@
+// ===========================================================
+// 1. Ternary Operator 
+// 2. Nullish Coalescing (??)
+// 3. Optional Chaining (?.)
+// ===========================================================
+
+/* ===========================================================
+1. Ternary Operator
+--------------------------------------------------------------
+ছোট if-else shortcut
+
+Format:
+condition ? true হলে যা হবে : false হলে যা হবে
+*/
+
+/**============Example 1: Simple Ternary =================== */
+const age = 20;
+const msg = age >= 18 ? 'old': 'Child';
+console.log(msg) // old
+
+/*======== Example 2: Nested Ternary (Avoid if possible) ==== */
+const mark = 94;
+const grade = mark >= 80 ? 'A+': mark >= 70 ? 'A': mark>=60?'B':'F'
+
+console.log(grade)  // A+
+
+/*============================================================
+2. Nullish Coalescing (??)
+--------------------------------------------------------------
+Default value operator 
+শুধুমাত্র তখনই fallback দিবে যখন value null বা undefined হবে।
+Falsy values (0, '', false) এ কাজ করবে না ।
+*/
+
+/*================== Example ===============================*/
+let name: string | null = null;
+console.log(name?? 'Guest') // Guest
+
+/*============================================================
+3. Optional Chaining (?.)
+--------------------------------------------------------------
+Nested property access করার সময় যদি কিছু undefined হয়,
+error ছাড়ায় undefined return করবে।
+*/
+
+/*=================== Example 1: Object ================== */
+const user = {
+    name: 'Anam',
+    address:{
+        city:'Dhaka'
+    }
+}
+
+console.log(user.address?.city) // Dhaka
+// console.log(user.contact?.email)  // undefined (no error)
+
+/*================ Example 2: Function =================== */
+const obj = {
+    sayHi (){
+        return 'Hello'
+    }
+}
+
+console.log(obj.sayHi?.()) // Hello
+// console.log(obj.sayBye?()) // undefined
+
+/*=========== Example 3: Array ========================== */
+const data = {
+    items: null,
+}
+
+console.log(data.items?.[0]) // undefined (no error)
