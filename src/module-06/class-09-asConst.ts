@@ -118,11 +118,11 @@ type UserRoleUnion = 'Admin' | 'Editor' | 'Viewer'
 | বিষয়         | Enum                        | as const             |
 |--------------|-----------------------------|--------------------------|
 | Compilation Output | JS-এ কোড তৈরি হয়     | Compile-time-only, কোনো JS কোড না |
-| Performance        | Bundle size সামান্য বাড়ে  | হালকা ও দ্রুত  |
-| Maintainability    | আলাদা enum structure লাগে | সাধারণ object দিয়েই কাজ চলে   |
-| Type Safety        | Type-safe              | আরও বেশি type-safe      |
-| Auto Suggest       | আছে              | আছে            |
-| জটিলতা            | কিছুটা বেশি           | কম ও সরল        |
+| Performance    | Bundle size সামান্য বাড়ে  | হালকা ও দ্রুত  |
+| Maintainability | আলাদা enum structure লাগে | সাধারণ object দিয়েই কাজ চলে   |
+| Type Safety  | Type-safe      | আরও বেশি type-safe  |
+| Auto Suggest    | আছে          | আছে     |
+| জটিলতা          | কিছুটা বেশি       | কম ও সরল        |
 
 ✅ সহজভাবে:
 - ছোট প্রজেক্ট → `as const`
