@@ -1,0 +1,35 @@
+----------------------------------------------------
+Primitive data types in TS include:
+-number
+-string
+-boolean
+-null
+-undefined
+
+----------------------------------------------------
+Non-primitive data type in TS include:
+-object
+-array
+-tuple   let user:[string,number] = ['Anam',32]
+-enum    enum User = {}
+-any
+-void
+-never
+-unknown
+
+-----------------------------------------------------
+Other types:
+-Literal
+-Optional    ?
+-Function
+-Union       |
+-Intersection    &
+-Alias      type User = {}
+-Interface       Interface User {}
+-extends      Interface extends Interface
+-Generic    <T>
+-Rest & Spread
+-Ternary
+-Nullish
+-Optional Chaining
+-Nullable
