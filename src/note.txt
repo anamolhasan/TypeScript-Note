@@ -1,0 +1,10 @@
+
+function add (a, b){
+    const sum = a + b
+    return sum
+}
+add(3, 5)
+
+এই  add(3, 5) হলো argument
+আর add (a, b) হলো parameter
+
